@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>exotica calcadose</title>
+</h:head>
+<h:body>
+
+
+	<h:form>
+		<p:menubar>
+        <p:submenu label="File" icon="ui-icon-document">
+            <p:submenu label="New" icon="ui-icon-contact">
+                <p:menuitem value="Project" url="inicio.xhtlm" />
+                <p:menuitem value="Other" url="#" />
+            </p:submenu>
+           
+        </p:submenu>
+        </p:menubar>
+       
+	</h:form>
+	
+	<h:form>
+
+		<center>
+			<h:panelGrid columns="2" bgcolor="">
+				<p:outputLabel value="login:" />
+				<h:inputText maxlength="8" size="20" />
+				<p:outputLabel value="Senha:" />
+				<h:inputSecret size="20" maxlength="5" />
+				<p:commandButton value="gravar" action="https://www.facebook.com/" />
+				<p:commandButton value="click aqui" size="20" />
+			</h:panelGrid>
+		</center>
+	</h:form>
+	
+</h:body>
+</html>

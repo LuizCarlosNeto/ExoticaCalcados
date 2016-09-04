@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Unik S/A
+Implementation-Title: exoticaCalcados
+Implementation-Version: 0.0.1
+Class-Path: lib/hibernate-core-4.1.4.Final.jar lib/antlr-2.7.7.jar lib
+ /jboss-logging-3.1.0.GA.jar lib/jboss-transaction-api_1.1_spec-1.0.0.
+ Final.jar lib/dom4j-1.6.1.jar lib/hibernate-jpa-2.0-api-1.0.1.Final.j
+ ar lib/javassist-3.15.0-GA.jar lib/hibernate-commons-annotations-4.0.
+ 1.Final.jar lib/hibernate-entitymanager-4.1.4.Final.jar lib/hibernate
+ -c3p0-4.1.4.Final.jar lib/c3p0-0.9.1.jar lib/mysql-connector-java-5.1
+ .18.jar lib/javax.faces-2.2.5.jar lib/jsf-api-2.2.5.jar lib/servlet-a
+ pi-2.5.jar lib/primefaces-4.0.jar lib/all-themes-1.0.7.jar lib/afterd
+ ark-1.0.7.jar lib/afternoon-1.0.7.jar lib/afterwork-1.0.7.jar lib/bla
+ ck-tie-1.0.7.jar lib/blitzer-1.0.7.jar lib/bluesky-1.0.7.jar lib/casa
+ blanca-1.0.7.jar lib/cruze-1.0.7.jar lib/cupertino-1.0.7.jar lib/dark
+ -hive-1.0.7.jar lib/dot-luv-1.0.7.jar lib/eggplant-1.0.7.jar lib/exci
+ te-bike-1.0.7.jar lib/flick-1.0.7.jar lib/glass-x-1.0.7.jar lib/hot-s
+ neaks-1.0.7.jar lib/humanity-1.0.7.jar lib/le-frog-1.0.7.jar lib/midn
+ ight-1.0.7.jar lib/mint-choc-1.0.7.jar lib/overcast-1.0.7.jar lib/pep
+ per-grinder-1.0.7.jar lib/redmond-1.0.7.jar lib/rocket-1.0.7.jar lib/
+ sam-1.0.7.jar lib/smoothness-1.0.7.jar lib/south-street-1.0.7.jar lib
+ /start-1.0.7.jar lib/sunny-1.0.7.jar lib/swanky-purse-1.0.7.jar lib/t
+ rontastic-1.0.7.jar lib/ui-darkness-1.0.7.jar lib/ui-lightness-1.0.7.
+ jar lib/vader-1.0.7.jar lib/home-1.0.7.jar
+Build-Jdk: 1.7.0_67
+Built-By: luiz
+Created-By: Maven Integration for Eclipse
+

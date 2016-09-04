@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+
+
+<h:head></h:head>
+
+<h:body>
+	<p:panel>
+		<center>
+			<h:form id="cadastro">
+				<h:panelGrid bgcolor="" columns="2">
+					<h:outputText value="NOME :" size="20" />
+					<p:inputText id="nome" size="20"
+						value="#{PessoaFisicaBean.pessoaFisica.pessoa.nome}" />
+						<h:outputText value="Sexo" />
+					<p:inputText id="sexo" size="1"
+						value="#{PessoaFisicaBean.pessoaFisica.sexo}" />
+					<h:outputText value="CPF*:" size="20" />
+					<p:inputMask id="cpf" mask="999.999.999-99" size="20"
+						value="#{PessoaFisicaBean.pessoaFisica.cpf}" />
+					<h:outputText value="Rua:" />
+					<p:inputText id="rua" size="20"
+						value="#{PessoaFisicaBean.pessoaFisica.pessoa.rua}" />
+					<h:outputText value="CEp: " />
+					<p:inputText id="cep" size="20"
+						value="#{PessoaFisicaBean.pessoaFisica.pessoa.cep}" />
+					<h:outputText value="Idade" size="20" />
+					<p:inputText id="idade" size="2"
+						value="#{PessoaFisicaBean.pessoaFisica.idade}" />
+					<h:outputText value="telefone" size="20" />
+					<p:inputText id="telefone" size="20"
+						value="#{PessoaFisicaBean.pessoaFisica.telefone}" />					
+					<h:outputText value="CIDADE" />
+					<p:inputText id="cidade" size="20"
+						value="#{PessoaFisicaBean.pessoaFisica.pessoa.cidade}" />
+						<h:outputText value="Estado" />
+					<p:inputText id="estado" size="20"
+						value="#{PessoaFisicaBean.pessoaFisica.pessoa.estado}" />
+					<h:outputText value="Email" />
+					<p:inputText id="email" size="20"
+						value="#{PessoaFisicaBean.pessoaFisica.email}" />
+					<p:commandButton value="salvar" 
+						actionListener="#{PessoaFisicaBean.cadastarPessoaFisica()}"
+						action="index.jsf" update="cadastro" />
+
+				</h:panelGrid>
+
+			</h:form>
+		</center>
+	</p:panel>
+</h:body>
+</html>
